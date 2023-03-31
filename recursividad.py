@@ -7,6 +7,7 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 
+#imprime la serie en forma de arreglo
 def serieFibonnacci(n):
     lista = [0,1];
     if n >= 2:   
