@@ -1,5 +1,5 @@
 
-#imprime el valor que se encuentra en la posición n de la serie de fibonacci main
+#imprime el valor que se encuentra en la posición n de la serie de fibonacci main 2
 
 def fibonacci(n):
     if n == 2:
