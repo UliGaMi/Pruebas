@@ -1,5 +1,6 @@
 
-#imprime el valor que se encuentra en la posición n en la serie de fibonacci
+#imprime el valor que se encuentra en la posición n de la serie de fibonacci
+
 def fibonacci(n):
     if n == 2:
         return 1
@@ -9,6 +10,7 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 #imprime la serie en forma de lista
+
 def serieFibonacci(n):
     lista = [0,1];
     if n >= 2:   
